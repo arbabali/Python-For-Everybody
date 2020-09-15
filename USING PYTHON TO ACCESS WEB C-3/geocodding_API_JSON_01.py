@@ -10,10 +10,10 @@ import urllib.request,urllib.parse,urllib.error
 import json
 import ssl
 
-#api_key="AIzaSyBH86SYWkse6z27sVpZWWLpx9Bzd3YSP10"
+#api_key="AasdaSyw86SYq2q7sVqweP25"
 api_key=False
 if api_key is False:
-    api_key="AIzaSyBH86SYWkse6z27sVpZWWLpx9Bzd3YSP10"
+    api_key=42
     serviceUrl="http://py4e-data.dr-chuck.net/json?"
 else:
     serviceUrl='https://maps.googleapis.com/maps/api/geocode/json?'
