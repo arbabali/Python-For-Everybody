@@ -26,12 +26,7 @@ type the following command before running this code:
 http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-
 Win: spider.py
 
-Enter web url or enter: http://www.dr-chuck.com/
-['http://www.dr-chuck.com']
-
-How many pages:2
-1 http://www.dr-chuck.com/ 12
-2 http://www.dr-chuck.com/csev-blog/ 57
+Enter web url or enter: ['http://www.dr-chuck.com']
 
 If you restart the program again and tell it to crawl more
 pages, it will not re-crawl any pages already in the database.  
